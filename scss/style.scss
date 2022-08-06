@@ -19,13 +19,13 @@ body {
 }
 
 .wrapper {
-    width: 1600px;
+    max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .wrapper__clients {
-    width: 1720px;
+    max-width: 1720px;
     margin-right: auto;
     margin-left: auto;
     
@@ -41,7 +41,6 @@ body {
 .services::before {
     content: "";
     position: absolute;
-    width: 1880px;
     height: 10px;
     background-color: #fff;
     background: #cacadb;
@@ -54,7 +53,6 @@ body {
 .services::after {
     content: "";
     position: absolute;
-    width: 1840px;
     height: 10px;
     background-color: #fff;
     background: #e7e7f2;
