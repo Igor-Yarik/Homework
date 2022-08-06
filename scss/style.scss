@@ -81,8 +81,8 @@ body {
     position: absolute;
     background: url("../images/icons/icon_arrow_right.png") center no-repeat;
     width: 12px;
-    height: 12px;
-    top: 12%;
+    height: 13px;
+    top: 13%;
     right: -14px;
 }
 
@@ -120,18 +120,23 @@ body {
     border-radius: 24px;
 }
 
-.services__subtitle {
-    font-weight: 700;
-    font-size: 22px;
+.services__item--link {
+    display: block;
     line-height: 27px;
     color: #24a3ff;
     margin-top: 30px;
     margin-bottom: 15px;
+
+    &:hover {
+        color: #f0145a;
+        cursor: pointer;
+    }
 }
 
-.services__subtitle:hover {
-    color: #f0145a;
-    cursor: pointer;
+.services__subtitle {
+    font-weight: 700;
+    font-size: 22px;
+
 }
 
 .services__text {
