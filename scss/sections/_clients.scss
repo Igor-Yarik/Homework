@@ -1,0 +1,105 @@
+.clients {
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #323264;
+        margin-bottom: 30px;
+    }  
+}
+
+.client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+
+    &:hover {
+        opacity: .5;
+    }
+
+    &__hillel {
+        background-color: #1c4280;
+    }
+
+    &__wannabiz {
+        background-color: #143646;
+    }
+
+    &__tapgerine {
+        background-color: #F48B30;
+    }
+
+    &__3dlook {
+        background-color: #9E4DC3;
+    }
+
+    &__orangear {
+        background-color: #FD9339;
+    }
+
+    &__adtelligent {
+        background-color: #E2E2E4;
+    }
+
+    &__clickky {
+        background-color: #C71C36;
+    }
+
+    &__leasing {
+        background-color: #DCF3F9;
+    }
+
+    &__ingratek {
+        background-color: #EAEAEA;
+    }
+
+    &__city-par {
+        background-color: #282240;
+    }
+
+    &__artprint {
+        background-color: #1D4568;
+    }
+
+    &__ultimatecard {
+        background-color: #000000;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .clients__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .client {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .client {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .clients {
+
+        &__items {
+            border-radius: 12px;
+            overflow: hidden;
+        }    
+    }
+}
