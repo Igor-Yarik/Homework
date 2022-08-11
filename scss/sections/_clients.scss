@@ -3,7 +3,6 @@
     padding-bottom: 30px;
 
     &__title {
-        font-weight: 700;
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 1px;
@@ -71,6 +70,10 @@
     &__ultimatecard {
         background-color: #000000;
     }
+
+    &:nth-child(1n+7)     {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -83,7 +86,11 @@
 
     .client {
         width: 33.33%;
-    }
+
+        &:nth-child(1n+7)     {
+            display: flex;
+        }
+    }   
 }
 
 @media (min-width: 1024px) {

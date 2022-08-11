@@ -25,7 +25,7 @@ a {
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat", serif;
   margin: 0;
 }
 
@@ -62,7 +62,6 @@ body {
   content: "";
   position: absolute;
   height: 10px;
-  background-color: #fff;
   background: #cacadb;
   border-radius: 0px 0px 12px 12px;
   left: 20px;
@@ -74,7 +73,6 @@ body {
   content: "";
   position: absolute;
   height: 10px;
-  background-color: #fff;
   background: #e7e7f2;
   border-radius: 0px 0px 12px 12px;
   left: 40px;
@@ -111,13 +109,12 @@ body {
 }
 
 .services__title {
-  font-weight: 700;
   font-size: 30px;
   line-height: 37px;
   background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -150,7 +147,6 @@ body {
 }
 
 .services__text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #ffffff;
@@ -158,6 +154,7 @@ body {
 
 @media (min-width: 768px) {
   .services {
+    padding-top: 60px;
     padding-bottom: 0;
   }
   .services__title {
@@ -186,7 +183,6 @@ body {
   padding-bottom: 30px;
 }
 .clients__title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 1px;
@@ -241,6 +237,9 @@ body {
 .client__ultimatecard {
   background-color: #000000;
 }
+.client:nth-child(1n+7) {
+  display: none;
+}
 
 @media (min-width: 768px) {
   .clients__items {
@@ -250,6 +249,9 @@ body {
   }
   .client {
     width: 33.33%;
+  }
+  .client:nth-child(1n+7) {
+    display: flex;
   }
 }
 @media (min-width: 1024px) {
