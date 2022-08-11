@@ -1,0 +1,67 @@
+.title {
+
+    &__link {
+        display: inline-block;
+        position: relative;
+        color: #24a3ff;
+
+        & h3 {
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            color: #f0145a;
+
+            &:after {
+                background: url("../images/icons/icon_arrow_right_hover.png");
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            background: url("../images/icons/icon_arrow_right.png") center no-repeat;
+            width: 12px;
+            height: 13px;
+            top: 13%;
+            right: -14px;
+        }
+    }
+
+    &__suptitle {
+        font-size: 30px;
+        line-height: 37px;
+        background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        font-size: 22px;
+    }
+}
+
+.clients .title__subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #323264;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+
+    .title__suptitle {
+        font-size: 38px;
+        line-height: 46px;
+        margin-bottom: 60px;
+    }
+}
