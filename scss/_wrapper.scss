@@ -4,6 +4,12 @@
     margin-left: auto;
 }
 
+.publication__wrapper {
+    max-width: calc(100% - 60px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media (min-width: 768px) {
     .wrapper {
         max-width: calc(100% - 120px);
