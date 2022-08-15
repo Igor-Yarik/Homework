@@ -28,7 +28,7 @@
             height: 13px;
             top: 13%;
             right: -14px;
-        }
+        }       
     }
 
     &__suptitle {
@@ -45,6 +45,12 @@
     &__subtitle {
         font-size: 22px;
     }
+
+    &__name {
+        margin-bottom: 6px;
+        line-height: 20px;
+        color: #B3B3BA;
+    }
 }
 
 .clients .title__subtitle {
@@ -58,6 +64,11 @@
 }
 
 .publications .title__suptitle {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.team .title__suptitle {
     margin-top: 5px;
     margin-bottom: 30px;
 }

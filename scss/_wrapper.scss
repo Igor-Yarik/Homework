@@ -10,9 +10,21 @@
     margin-left: auto;
 }
 
+.team__wrapper {
+    max-width: calc(100% - 60px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media (min-width: 768px) {
     .wrapper {
         max-width: calc(100% - 120px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .team__wrapper {
+        padding: 30px; 
     }
 }
 

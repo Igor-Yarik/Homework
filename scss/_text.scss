@@ -13,6 +13,7 @@
 }
 
 .item__text {
+    
     &--time {
         font-weight: 700;
         font-size: 12px;
@@ -21,6 +22,11 @@
         text-transform: uppercase;
         color: #B3B3BA;
         margin-bottom: 15px;
-
     }
+}
+
+.team .item__text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #B3B3BA;
 }
