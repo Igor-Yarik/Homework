@@ -1,7 +1,8 @@
 .publications {
     padding-top: 30px;
     background-color: #F5F5FA;
-    border-top: 4px solid #E6E6F0;
+    border-radius: 8px 8px 0px 0px;
+    /* border-top: 4px solid #E6E6F0; */
 
     &__items {
         display: flex;
@@ -16,10 +17,21 @@
     margin-bottom: 30px;    
 }
 
-.item_image {
-    width: 100%;
-    height: 200px;
+.item__image {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    max-height: 200px;
     border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+
+    & img {
+           /* max-height: 200px; */
+        width: 100%;
+        height: 100%;
+  
+        
+    }
 }
 
 @media (min-width: 768px) {
