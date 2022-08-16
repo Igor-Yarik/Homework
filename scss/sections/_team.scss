@@ -7,16 +7,16 @@
         padding-bottom: 30px;
         margin-bottom: 30px;        
     }
-}
 
-.team__image {
-    display: flex;
-    align-items: center;
-    height: 500px;
-    border-radius: 12px 12px 0px 0px;
-    margin-bottom: 30px;
-    background: url(/images/teams/team_01.jpg) center;
-    background-size: cover;
+    &__image {
+        display: flex;
+        align-items: center;
+        height: 500px;
+        border-radius: 12px 12px 0px 0px;
+        margin-bottom: 30px;
+        background: url(/images/teams/team_01.jpg) center;
+        background-size: cover;
+    }
 }
 
 .slider {
@@ -56,13 +56,13 @@
             display: flex;
             justify-content: space-between;
             padding-bottom: 0;            
-        }       
+        }    
+        
+        &__image {
+            height: auto;
+            min-width: 400px; 
+            border-radius: 12px 0px 0px 12px;
+            margin-bottom: 0;
+        }
     }
-
-    .team__image {
-        height: auto;
-        min-width: 400px; 
-        border-radius: 12px 0px 0px 12px;
-        margin-bottom: 0;
-    }    
 }

@@ -218,6 +218,7 @@ body {
 }
 
 .services__images {
+  display: inline-flex;
   padding: 14px;
   background: #ffffff;
   border-radius: 24px;
@@ -253,7 +254,6 @@ body {
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
-
 .team__image {
   display: flex;
   align-items: center;
