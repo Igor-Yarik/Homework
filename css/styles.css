@@ -260,7 +260,7 @@ body {
   height: 500px;
   border-radius: 12px 12px 0px 0px;
   margin-bottom: 30px;
-  background: url(/images/teams/team_01.jpg) center;
+  background: url("../images/teams/team_01.jpg") center;
   background-size: cover;
 }
 
