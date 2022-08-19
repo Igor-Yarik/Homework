@@ -1,5 +1,14 @@
 .title {
 
+    &__top {
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 38px;
+        line-height: 46px;
+        text-align: center;
+        color: #FFFFFF;   
+    }
+
     &__link {
         display: inline-block;
         position: relative;
@@ -73,6 +82,22 @@
     margin-bottom: 30px;
 }
 
+.popup .title__suptitle {
+    margin-top: 0;
+    margin-right: 32px;
+}
+
+.popup .title__subtitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B3B3BA;
+}
+
 @media (min-width: 768px) {
 
     .title__suptitle {
@@ -83,9 +108,12 @@
 }
 
 .experiance .title {
-    font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.popup .title__suptitle {
     margin-bottom: 30px;
 }

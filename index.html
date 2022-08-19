@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="Коммерция, юридическая, поддержка, защита, бизнес">
@@ -10,52 +9,27 @@
     <title>Поставщик юридических решений</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
     <header>
-
         <section class="header">
             <div class="wrapper">
-                <div class="header_test">
-                    <div class="header__test__Item">
-                        <button class="header__test__btn">УК</button>
-                        <button class="header__test__btn">РУ</button>
-                        <button class="header__test__btn--active">EN</button>
-                    </div>
-                    <div class="header__test__Item">
-                        <p class="header__test__tel">0800 211 927</p>
-                    </div>
-
-                </div>
-
-
-
                 <div class="header__item">
-
                     <div class="navigation">
-                        <div class="nav__item">
-                            <img class="logo" src="/images/header/logo.svg" alt="">
-                            <p> <img src="/images/header/Slash.svg" alt=""> services</p>
-                        </div>
-                        <div class="nav__item">
-                            <a href="">menu</a>
-                        </div>
                     </div>
-                    <div class="header__title">
-                        <h1>you legal solutions provider</h1>
+                    <div class="header__subitem">
+                        <h1 class="title__top">you legal solutions provider</h1>
                     </div>
                     <div class="header__btn">
-                        <a class="header__btn__item" href="">
-                            <img src="/images/header/head_arrow_w.png" alt="">
+                        <a class="header__btn__item" href="#" id="open-form">
+                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none">
+                                <path d="M1 1L10 10L19 1" stroke="white" stroke-width="2" />
+                            </svg>
                         </a>
                     </div>
                 </div>
             </div>
-
         </section>
-
     </header>
-
     <section class="experiance">
         <div class="wrapper">
             <div class="experiance__items">
@@ -82,7 +56,6 @@
             </div>
         </div>
     </section>
-
     <main>
         <section class="services">
             <div class="wrapper">
@@ -280,6 +253,39 @@
             </div>
         </section>
     </main>
-</body>
+    <section class="form">
+        <div class="popup">
+            <div class="wrapper">
+                <form class="form_popup" action="https://fom.in.ua/echo" method="get">
+                    <button type="button" class="btn__form__close" id="close-form">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2" />
+                            <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2" />
+                        </svg>
+                    </button>
+                    <h2 class="title__suptitle">We would like to help you</h2>
+                    <input type="text" name="name" placeholder="Name">
+                    <textarea name="comment" rows="5" placeholder="Message"></textarea>
+                    <h3 class="title__subtitle">How to answer you?</h3>
+                    <input type="tel" name="phone" placeholder="Phone number">
+                    <input type="email" name="email" placeholder="Email">
+                    <button type="submit" class="btn__form__send">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
+    <script>
+        const form = document.querySelector('.form');
+        const openButton = document.querySelector('#open-form')
+        const closeButton = document.querySelector('#close-form')
+        openButton.addEventListener('click', () => {
+            form.classList.add('form--shoved')
+        })
+        closeButton.addEventListener('click', () => {
+            form.classList.remove('form--shoved')
+        })
+    </script>
+
+</body>
 </html>

@@ -4,6 +4,12 @@
     margin-left: auto;
 }
 
+.header {
+    .wrapper {
+        max-width: calc(100% - 30px);
+    }  
+}
+
 .publication__wrapper {
     max-width: calc(100% - 60px);
     margin-right: auto;
@@ -20,12 +26,29 @@
     .wrapper {
         max-width: calc(100% - 120px);
     }
+
+    .header {
+        .wrapper {
+            max-width: calc(100% - 120px);
+        }  
+    }
+
+    .popup .wrapper {
+        max-width: calc(100% - 60px);
+    }
+
 }
 
 @media (min-width: 1024px) {
     .team__wrapper {
         padding: 30px; 
         margin: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .experiance .wrapper {
+        max-width: calc(100% - 360px);
     }
 }
 
@@ -41,4 +64,9 @@
             margin-left: auto;
         }
     }
+
+    .experiance .wrapper {
+        max-width: calc(100% - 560px);
+    }
 }
+
