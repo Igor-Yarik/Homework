@@ -1,0 +1,43 @@
+.experiance {
+    overflow: hidden ;
+    background-color: #323264;
+
+    &__navigation {
+        display: flex;
+        width: 1928px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        & a {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 37px;
+            color: #B3B3BA;
+            margin-right: 30px;
+        }
+
+        & a:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link {    
+
+        &--active {
+            background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    
+        &:hover {
+            color: #F0145A;
+        }    
+    }
+    
+    &__items {
+        border-top: 4px solid rgba(255, 255, 255, 0.3);
+        padding-top: 30px;
+    }
+}

@@ -1,24 +1,19 @@
 .header {
     position: relative;
-    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    /* background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%); */
 
     & .wrapper {
         max-width: calc(100% - 30px);
-    }
-
-    
+    }    
 }
 
 
 .header {
     background: url(/images/header/symbol.png);
-    background-color: grey;
+    background-color: #323264;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
-
-
 }
 
 .header_test {    
@@ -33,8 +28,6 @@
     height: 45px;
     padding: 10px 15px;
     background-color: rgba(245, 245, 250, 0.2);
-
-
 }
 
 
@@ -74,7 +67,6 @@
     background-color: rgba(245, 245, 250, .3);
     border-radius: 8px;
     color: #F0145A;
-
 }
 
 .header__item {
@@ -85,8 +77,6 @@
     align-items: center;
     padding-top: 45px;
     padding-bottom: 30px;
-
-
 }
 
 
@@ -97,18 +87,12 @@
     padding-bottom: 10px;
     width: 100%;
     align-items: center;
-
 }
-
-
 
 .nav__item {
-display: flex;
-align-items: center;
-
-
+    display: flex;
+    align-items: center;
 }
-
 
 .nav__item p {
     display: flex;
@@ -118,15 +102,12 @@ align-items: center;
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-
 }
 
 
 .header__title {
     position: relative;
     top: -15px;
-
-
 }
 
 .header__title h1 {
@@ -141,16 +122,12 @@ align-items: center;
 }
 
 .header__btn {
-
     position: relative;
     width: 42px;    
     height: 42px;
     border: 2px solid #FFFFFF;
     opacity: .5;
     border-radius: 50%;
-
-    
-
 }
 
 .header__btn:hover {
@@ -161,61 +138,10 @@ align-items: center;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);   
-
-
+    transform: translate(-50%, -50%); 
 }
 
 .header__btn__item:hover {
     background-color: #F0145A;
 }
 
-
-
-/* ================   TEST   ===================== */
-
-.test {
-    background-color: #323264;
-}
-
-.test__menu {
-    
-    position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-bottom: 4px solid rgba(255, 255, 255, .3);
-}
-
-.test__menu a {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 37px;
-    color: #B3B3BA;
-
-}
-
-.test__block {
-    margin-top: 30px;
-    
-
-}
-
-.test__title h2 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin-bottom: 30px;
-}
-
-.test__text p {
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 30px;    
-    color: #FFFFFF;
-}
