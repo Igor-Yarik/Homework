@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    &__items {
+    &__item {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -71,7 +71,7 @@
     color: #F0145A;
 }
 
-.header__items__sup {
+.navigation {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -82,7 +82,7 @@
   
 }
 
-.header__logo {
+.navigation__item {
     display: flex;
     
 
@@ -99,7 +99,7 @@
     }
 }
 
-.header__logo__text::before {
+.navigation__item__text::before {
     content: '';
     position: absolute;
     background: url("/images/header/Slash.svg") center;
@@ -109,7 +109,7 @@
     height: 26px;
 }
 
-.header__item {
+.header_test_new {
     display: none;
     justify-content: flex-start;
     margin-bottom: 30px;
@@ -201,11 +201,11 @@
     width: 18px;
 }
 
-.header__nav {
+.nav___menu {
     display: none;
 }
 
-.header__nav__item {
+.nav_item {
     display: flex;
     gap: 15px;
 }
@@ -254,7 +254,7 @@
 
 @media (min-width: 768px) {
 
-.header__items {
+.header__item {
     padding-top: 50px;
 }
 
@@ -262,7 +262,7 @@
         display: none;
     }
 
-    .header__item {
+    .header_test_new {
         display: flex;
     }
 
@@ -270,23 +270,23 @@
         display: none;
     }
 
-    .header__items__sup {
+    .navigation {
         display: block;
         padding-top: 0;
         padding-bottom: 0;
    
      }
 
-    .header__logo__img {
+    .navigation__item__img {
         width: 130px;
         height: 60px;
     }
 
-    .header__logo__text {
+    .navigation__item__text {
         display: none;
     }
 
-    .header__nav {
+    .nav___menu {
         display: flex;
         margin-top: 30px;
     }
@@ -298,18 +298,18 @@
         background-size: contain;
     }
 
-    .header__item {
+    .header_test_new {
         justify-content: flex-end;
         margin-bottom: 16px;
     }
 
-    .header__logo {
+    .navigation__item {
         position: relative;
         top: -41px;
         left: 0;
     }
 
-    .header__nav {
+    .nav___menu {
         position: relative;
         top: -61px;
         right: 0;
@@ -318,11 +318,30 @@
  
     }
 
-   .header__items__sup {
+   .navigation {
         height: 60px;
 
     }
 
 }
 
+@media (min-width: 1920px) {
+    /* .navigation__item {
+        left: 160px;
+    } */
 
+  
+   /*  .navigation__item {
+        position: relative;
+        top: -41px;
+        left: 0;
+    }
+
+    .nav___menu {
+        position: relative;
+        top: -61px;
+        right: 0;
+ 
+    } */
+
+}
