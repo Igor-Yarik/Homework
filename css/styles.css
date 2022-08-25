@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
@@ -442,7 +441,6 @@ body {
   color: #FFFFFF;
 }
 
-/* ==================== НЕТРОГАТЬ!!!! ============================ */
 .header__btn {
   position: relative;
   width: 42px;
@@ -868,6 +866,112 @@ body {
   }
   .publication:last-child {
     width: calc(33.33% - 15px);
+  }
+}
+footer {
+  background: #F5F5FA;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-top: 2px solid #E6E6F0;
+  background: #F5F5FA;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer__items address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+  margin-bottom: 10px;
+  order: 1;
+}
+
+/* .footer__item {
+    display: flex;
+    flex-direction: column;
+} */
+.target__map {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  margin-bottom: 21px;
+  order: 2;
+}
+
+.link_fb {
+  order: 3;
+}
+
+.tell__item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #46466E;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  order: 4;
+}
+
+.mail__item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24A3FF;
+  margin-bottom: 30px;
+  order: 5;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #B3B3BA;
+  order: 6;
+}
+
+@media (min-width: 768px) {
+  .footer__items {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer__items address {
+    margin-bottom: 0;
+  }
+  .footer__item {
+    display: flex;
+    align-items: center;
+    width: 33.33%;
+  }
+  /* .footer__item {
+      flex-direction: row;
+      align-items: center;
+
+      &:first-child {
+          justify-content: space-between;
+      }
+  } */
+  .target__map {
+    margin-bottom: 0;
+  }
+  .tell__item {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+  }
+  .mail__item {
+    margin-bottom: 0;
+    display: inline;
+  }
+  .copyright {
+    order: 2;
   }
 }
 .form {
