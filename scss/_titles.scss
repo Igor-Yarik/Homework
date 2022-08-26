@@ -98,15 +98,6 @@
     color: #B3B3BA;
 }
 
-@media (min-width: 768px) {
-
-    .title__suptitle {
-        font-size: 38px;
-        line-height: 46px;
-        margin-bottom: 60px;
-    }
-}
-
 .experiance .title {
     font-size: 20px;
     line-height: 24px;
@@ -117,3 +108,20 @@
 .popup .title__suptitle {
     margin-bottom: 30px;
 }
+
+@media (min-width: 768px) {
+
+    .title__suptitle {
+        font-size: 38px;
+        line-height: 46px;
+        margin-bottom: 60px;
+    }
+
+    .experiance .title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+}
+
+
+
