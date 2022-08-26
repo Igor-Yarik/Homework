@@ -29,7 +29,7 @@ body {
   margin: 0;
 }
 
-.content {
+header {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0px 0px 12px 12px;
 }
@@ -338,6 +338,9 @@ body {
     font-size: 38px;
     line-height: 46px;
   }
+  .experiance__navigation a:last-child {
+    margin-right: 60px;
+  }
   .experiance__item {
     padding-top: 60px;
   }
@@ -371,6 +374,7 @@ body {
   }
   .experiance__navigation a:last-child {
     margin-bottom: 0;
+    margin-right: 0;
   }
   .experiance__item {
     display: flex;
