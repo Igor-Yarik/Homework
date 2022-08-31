@@ -33,17 +33,17 @@
     align-items: flex-start;
     margin-top: 60px;
 
-    .logo {        
+    .logo {
         margin-right: 19px;
     }
 }
 
 .link__top::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: calc(50% - 11px);
-    background: url('../images/header/Slash.svg');
+    background: url("../images/header/Slash.svg");
     width: 12px;
     height: 26px;
 }
@@ -64,9 +64,8 @@
     position: relative;
 }
 
-.logo{
-
-   & img {
+.logo {
+    & img {
         width: 69px;
         height: 32px;
     }
@@ -76,9 +75,8 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-
 
 .nav__menu__burger {
     display: flex;
@@ -90,38 +88,36 @@
 
 .nav__menu__link {
     position: absolute;
-        top: -4px;        
-        right: 0;
-        border-top: 2px solid #FFFFFF;
-        width: 18px;
+    top: -4px;
+    right: 0;
+    border-top: 2px solid #ffffff;
+    width: 18px;
 
     &::before {
-        content: '';
+        content: "";
         position: absolute;
-        top: 4px;        
+        top: 4px;
         right: 0;
-        border-top: 2px solid #FFFFFF;
+        border-top: 2px solid #ffffff;
         width: 18px;
     }
 
     &::after {
-        content: '';
+        content: "";
         position: absolute;
-        top: 10px;        
+        top: 10px;
         right: 0;
-        border-top: 2px solid #FFFFFF;
+        border-top: 2px solid #ffffff;
         width: 18px;
     }
 }
 
-.navigation__desktop {   
+.navigation__desktop {
     display: none;
     flex-direction: column;
     align-self: flex-start;
     font-size: 0;
 }
-
-
 
 .social {
     display: flex;
@@ -131,7 +127,7 @@
         font-weight: 700;
         font-size: 12px;
         letter-spacing: 1px;
-        color: #FFFFFF;
+        color: #ffffff;
         padding: 5px 7px;
         background: none;
         border: none;
@@ -141,12 +137,12 @@
             font-weight: 700;
             font-size: 12px;
             letter-spacing: 1px;
-            color: #FFFFFF;
+            color: #ffffff;
             padding: 5px 7px;
             border: none;
             cursor: pointer;
-            background: #F0145A;
-            border-radius: 8px;            
+            background: #f0145a;
+            border-radius: 8px;
         }
 
         &:hover {
@@ -154,21 +150,21 @@
             border-radius: 8px;
         }
     }
-   
+
     &__address {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
-        color: #B3B3BA;
+        color: #b3b3ba;
     }
 
     &__tel {
         font-weight: 700;
         font-size: 16px;
         line-height: 20px;
-        color: #FFFFFF;
-    }    
+        color: #ffffff;
+    }
 }
 
 .fb__link:hover {
@@ -179,24 +175,24 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-right: 15px;
 
     &:last-child {
         margin-right: 0;
     }
 
-    &:hover {   
-        border-bottom: 2px solid #FFFFFF;         
+    &:hover {
+        border-bottom: 2px solid #ffffff;
     }
 }
 
 .header__btn {
     position: relative;
-    width: 42px;    
+    width: 42px;
     height: 42px;
     border: 2px solid #9999b2;
-    border-radius: 50%;  
+    border-radius: 50%;
 
     &:hover {
         border: 2px solid #90235e;
@@ -212,18 +208,16 @@
         height: 42px;
         border-radius: 50%;
         align-items: center;
-        transform: translate(-50%, -50%); 
+        transform: translate(-50%, -50%);
 
-         &:hover svg path {
-            stroke: #F0145A;
+        &:hover svg path {
+            stroke: #f0145a;
         }
     }
 }
 
 @media (min-width: 768px) {
-
     .header {
-   
         &__item {
             padding-top: 50px;
         }
@@ -231,9 +225,8 @@
 
     .navigation__mobile {
         display: none;
-
     }
- 
+
     .social {
         display: flex;
         justify-content: flex-start;
@@ -248,15 +241,14 @@
 
     .social__item::after {
         position: absolute;
-        content: '';
+        content: "";
         top: calc(50% - 3px);
-        right: -12px;        
+        right: -12px;
         width: 6px;
         height: 6px;
         border-radius: 50%;
-        background: #E6E6F0;
+        background: #e6e6f0;
     }
-  
 
     .logo {
         display: flex;
@@ -272,9 +264,6 @@
     .navigation__desktop {
         display: flex;
     }
-
-    
-
 }
 
 @media (min-width: 1024px) {
