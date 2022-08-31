@@ -1,6 +1,8 @@
 .title {
 
     &__top {
+        position: relative;
+        top: -16px;
         padding-right: 30px;
         padding-left: 30px;
         font-size: 38px;
@@ -110,6 +112,13 @@
 }
 
 @media (min-width: 768px) {
+
+    .title {
+
+        &__top {
+            top: -76px;
+        }
+    }
 
     .title__suptitle {
         font-size: 38px;
