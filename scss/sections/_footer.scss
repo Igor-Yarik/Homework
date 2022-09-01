@@ -42,7 +42,9 @@ footer {
         margin-bottom: 10px;
 
         &:hover {
-            content: url(/images/footer/fb_icon_red.svg);
+            content: url('../images/footer/fb_icon_red.svg');
+            width: 38px;
+            height: 38px;
         }
     }
 

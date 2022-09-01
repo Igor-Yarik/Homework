@@ -43,7 +43,7 @@
     position: absolute;
     top: 0;
     left: calc(50% - 11px);
-    background: url("../images/header/Slash.svg");
+    background: url("../images/header/slash.svg");
     width: 12px;
     height: 26px;
 }
@@ -168,7 +168,10 @@
 }
 
 .fb__link:hover {
-    content: url(/images/header/fb_icon_red.svg);
+    content: url('../images/header/fb_icon_hover.svg');
+    width: 24px;
+    height: 25px;
+
 }
 
 .nav__link {

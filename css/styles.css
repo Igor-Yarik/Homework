@@ -291,7 +291,7 @@ header {
   position: absolute;
   top: 0;
   left: calc(50% - 11px);
-  background: url("../images/header/Slash.svg");
+  background: url("../images/header/slash.svg");
   width: 12px;
   height: 26px;
 }
@@ -407,7 +407,9 @@ header {
 }
 
 .fb__link:hover {
-  content: url(/images/header/fb_icon_red.svg);
+  content: url("../images/header/fb_icon_hover.svg");
+  width: 24px;
+  height: 25px;
 }
 
 .nav__link {
@@ -915,7 +917,9 @@ footer {
   margin-bottom: 10px;
 }
 .footer__social__item:hover {
-  content: url(/images/footer/fb_icon_red.svg);
+  content: url("../images/footer/fb_icon_red.svg");
+  width: 38px;
+  height: 38px;
 }
 .footer__social__tel {
   position: relative;
