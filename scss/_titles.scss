@@ -113,11 +113,8 @@
 
 @media (min-width: 768px) {
 
-    .title {
-
-        &__top {
-            top: -76px;
-        }
+    .title__top {
+        top: -76px;
     }
 
     .title__suptitle {
@@ -132,5 +129,11 @@
     }
 }
 
+@media (min-width: 1024px) {
+
+    .title__top {
+        top: -26px;
+    }
+}
 
 
